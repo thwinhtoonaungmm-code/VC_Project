@@ -1,17 +1,21 @@
+// Vietnamese animal vocabulary
 const animalsLevel1 = [
-  { name: "dog", emoji: "🐶" },
-  { name: "cat", emoji: "🐱" },
-  { name: "rabbit", emoji: "🐰" }
+  { name: "cho", emoji: "🐶", vi: "Chó" },
+  { name: "meo", emoji: "🐱", vi: "Mèo" },
+  { name: "tho", emoji: "🐰", vi: "Thỏ" }
 ];
 
 const animalsLevel2 = [
-  { name: "dog", emoji: "🐶" },
-  { name: "cat", emoji: "🐱" },
-  { name: "rabbit", emoji: "🐰" },
-  { name: "frog", emoji: "🐸" },
-  { name: "lion", emoji: "🦁" },
-  { name: "monkey", emoji: "🐵" }
+  { name: "cho", emoji: "🐶", vi: "Chó" },
+  { name: "meo", emoji: "🐱", vi: "Mèo" },
+  { name: "tho", emoji: "🐰", vi: "Thỏ" },
+  { name: "ech", emoji: "🐸", vi: "Ếch" },
+  { name: "su-tu", emoji: "🦁", vi: "Sư tử" },
+  { name: "khi", emoji: "🐵", vi: "Khỉ" }
 ];
+
+// ✅ Rest of the script is the same, only use `animal.vi` for word text
+
 
 // DOM elements
 const menuScreen = document.getElementById("menu-screen");

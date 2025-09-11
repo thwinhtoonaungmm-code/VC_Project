@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Animal Matching Game</title>
+  <title>Vietnamese Word Game</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- MENU SCREEN -->
   <div id="menu-screen" class="screen">
-    <h1>🐾 Animal Matching Game 🐾</h1>
+    <h1>🐾 Vietnamese Word Learning Game</h1>
     <button class="menu-btn" onclick="startGame(1)">Play Level 1</button>
     <button class="menu-btn" onclick="startGame(2)">Play Level 2</button>
     <button class="menu-btn" onclick="showInstructions()">Instructions</button>
@@ -19,16 +19,16 @@
   <!-- INSTRUCTIONS SCREEN -->
   <div id="instructions-screen" class="screen hidden">
     <h2>📖 How to Play</h2>
-    <p>Drag the animal name onto the correct animal picture.</p>
-    <p>✅ Green = Correct match<br>❌ Red = Wrong match</p>
+    <p>Drag the Vietnamese word and drop it onto the correct animal picture.</p>
+    <p>✅ Green = Correct<br>❌ Red = Wrong</p>
     <button onclick="goToMenu()">Back to Menu</button>
   </div>
 
   <!-- CREDITS SCREEN -->
   <div id="credits-screen" class="screen hidden">
     <h2>👨‍💻 Credits</h2>
-    <p>Made with ❤️ for kids learning.</p>
-    <p>Developer: You 🎉</p>
+    <p>This is a mini web game for learning Vietnamese vocabulary.</p>
+    <p>Developed by: You 🎉</p>
     <button onclick="goToMenu()">Back to Menu</button>
   </div>
 
