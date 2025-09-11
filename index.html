@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h1>Hello World</h1>
-    <h2>This is my first HTML page</h2>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Matching Game</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <h1>🐾 Animal Matching Game 🐾</h1>
+  <p>Drag the animal name to the correct picture!</p>
+
+  <div class="game-container">
+    <div class="images">
+      <div class="animal" data-animal="dog">🐶</div>
+      <div class="animal" data-animal="cat">🐱</div>
+      <div class="animal" data-animal="rabbit">🐰</div>
+    </div>
+
+    <div class="words">
+      <div class="word" draggable="true" data-animal="cat">Cat</div>
+      <div class="word" draggable="true" data-animal="rabbit">Rabbit</div>
+      <div class="word" draggable="true" data-animal="dog">Dog</div>
+    </div>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
